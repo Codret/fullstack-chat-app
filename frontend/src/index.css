@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@plugin "daisyui" {
+  themes: all
+
+}
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.input {
+  position: sticky;
+  bottom: 0;
+  z-index: 1000;
+  padding: 1rem;
+  background:#fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header {
+  position: sticky;
+  top: 0; /* sticks to the top of its parent container */
+  background-color: white; /* or match your theme */
+  z-index: 10; /* ensure it's above chat messages but below nav */
+  padding: 10px;
+  border-bottom: 1px solid #ccc; /* optional, to visually separate */
+}
+
+.navbar {
+  z-index: 50;
+  position: relative;
+}
