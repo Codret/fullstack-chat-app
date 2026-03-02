@@ -11,6 +11,7 @@
 import axios from "axios";
 
 export const axiosInstance = axios.create({
-  baseURL: "https://fullstack-chat-app-uyn3.onrender.com/api",
+  // baseURL: "https://fullstack-chat-app-uyn3.onrender.com/api",
+  baseURL: "/api",
   withCredentials: true,
 });
