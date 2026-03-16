@@ -104,7 +104,7 @@ const MessageInput = () => {
           <button
             type="button"
             onClick={() => fileInputRef.current?.click()}
-            className={`hidden sm:flex items-center justify-center shrink-0
+            className={`flex items-center justify-center shrink-0
               size-11 transition-all duration-150 active:scale-90
               ${imagePreview
                 ? "text-success"
