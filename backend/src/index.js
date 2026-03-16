@@ -58,7 +58,7 @@ import { fileURLToPath } from 'url';
 
 dotenv.config();
 
-const PORT =  5001 || process.env.PORT;
+const PORT =  process.env.PORT ||5001;
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.resolve();
 
