@@ -13,7 +13,7 @@ export const THEMES = [
   "halloween",
   "garden",
   "forest",
-  "aqua",
+  "aqua",  
   "lofi",
   "pastel",
   "fantasy",
