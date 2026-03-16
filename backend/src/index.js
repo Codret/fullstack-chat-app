@@ -59,8 +59,8 @@ import { fileURLToPath } from 'url';
 dotenv.config();
 
 const PORT =  5001 || process.env.PORT;
-const __dirname = path.resolve();
 const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.resolve();
 
 app.use(express.json());
 app.use(cookieParser());
